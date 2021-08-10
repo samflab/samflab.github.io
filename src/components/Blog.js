@@ -1,0 +1,106 @@
+import { Button } from "react-bootstrap";
+import "../styles/Blog.scss";
+
+function blogLinkClick(link) {
+  const url = link;
+  window.open(url, "_blank");
+}
+
+function Blog() {
+  return (
+    <div className="Blog" id="blogs">
+      <h1 className="blog-header">Blogs</h1>
+      <hr className="blog-divider" />
+      <div>
+        <div className="blog-plate">
+          <div className="blog-layout">
+            <span className="blog-body">
+              <h4 className="blog-title">
+                Smallest Positive Missing Number in an Unsorted Array in C++
+              </h4>
+              <p className="blog-desc">
+                We have an array consisting of negative and positive numbers, we
+                have to finding the smallest missing positive number from the
+                given array...
+              </p>
+              <button
+                className="urls"
+                onClick={() => {
+                  blogLinkClick(
+                    "https://samflab.medium.com/smallest-positive-missing-number-in-an-unsorted-array-8f8a0439fb09"
+                  );
+                }}
+              >
+                Read More
+              </button>
+            </span>
+          </div>
+          <div className="blog-layout">
+            <span className="blog-body">
+              <h4 className="blog-title">
+                Inserting Node into a Sorted Doubly Linked List
+              </h4>
+              <p className="blog-desc">
+                Recently, I was solving some coding questions on Hackerrank and
+                I came across this problem. I realised that this problem
+                lacked...
+              </p>
+              <button
+                className="urls"
+                onClick={() => {
+                  blogLinkClick(
+                    "https://samflab.medium.com/inserting-node-into-a-sorted-doubly-linked-list-67c638c4ec21"
+                  );
+                }}
+              >
+                Read More
+              </button>
+            </span>
+          </div>
+          <div className="blog-layout">
+            <span className="blog-body">
+              <h4 className="blog-title">Responsive Text in Flutter</h4>
+              <p className="blog-desc">
+                Have you ever come across a situation where you realized you
+                have to resize your text according to different screen sizes?
+                Unfortunately...
+              </p>
+              <button
+                className="urls"
+                onClick={() => {
+                  blogLinkClick(
+                    "https://samflab.medium.com/responsive-text-in-flutter-744fc830a9cd"
+                  );
+                }}
+              >
+                Read More
+              </button>
+            </span>
+          </div>
+          <div className="blog-layout">
+            <span className="blog-body">
+              <h4 className="blog-title">Our Train of Thoughts</h4>
+              <p className="blog-desc">
+                It might seem like a vague question but have you ever put some
+                thought into it? Being consumed by our thoughts and our thoughts
+                consuming us...
+              </p>
+              <button
+                className="urls"
+                onClick={() => {
+                  blogLinkClick(
+                    "https://samflab.medium.com/us-and-our-thoughts-76321f6a7801"
+                  );
+                }}
+              >
+                Read More
+              </button>
+            </span>
+          </div>
+        </div>
+      </div>
+    </div>
+  );
+}
+
+export default Blog;

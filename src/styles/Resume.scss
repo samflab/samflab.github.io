@@ -1,0 +1,185 @@
+body {
+  background-color: #e1f5fe;
+  height: auto;
+  ::-webkit-scrollbar {
+    width: 8px;
+    
+  }
+  ::-webkit-scrollbar-track {
+    background: #e1f5fe; 
+  }
+  ::-webkit-scrollbar-thumb {
+    background: #90acd1; 
+    border-radius: 20px;
+  }  
+}
+.Resume {
+  margin-left: 7rem;
+}
+.entire-resume {
+  height: 80vh;
+}
+.resume-header {
+  color: var(--main-font);
+  font-weight: bolder;
+  position: relative;
+  text-align: left;
+  font-size: 2.8rem;
+  font-family: "Poppins", sans-serif;
+  text-align: center;
+  padding-top: 2rem;
+}
+
+.resume-divider {
+  margin: 0% 42%;
+  border-top: 5px solid #e45447;
+}
+
+.tabs {
+  margin-top: 5rem;
+}
+#education,
+#internship,
+#achievement {
+  padding: 0% 15% 0% 5%;
+  float: left;
+  width: 100%;
+  overflow-y: auto;
+  height: 50vh;
+}
+
+#skills {
+  padding: 0% 0% 0% 5%;
+  height: auto;
+}
+.resume-container {
+  width: 100%;
+  margin-bottom: 30px;
+  background-color: #f9f9ff;
+  padding: 30px 40px;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px 2px #90acd1;
+}
+
+.year {
+  font-weight: 700;
+  font-size: 0.9rem;
+  color: #222222;
+  font-family: "Poppins", sans-serif;
+}
+
+.course {
+  font-size: 20px;
+  font-weight: 700;
+  color: #222222;
+  font-family: "Poppins", sans-serif;
+}
+
+.college {
+  display: inline-block;
+  margin-bottom: 10px;
+  color: #777777;
+  font-family: "Roboto", sans-serif;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 1.625em;
+}
+
+.desc {
+  font-family: "Roboto", sans-serif;
+  color: #777777;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 1.625em;
+}
+
+.skills-plate {
+  display: flex;
+  flex-direction: row;
+  background-color: #f9f9ff;
+  padding: 1rem;
+  border-radius: 99px;
+  justify-content: space-evenly;
+  align-items: center;
+  font-family: "Roboto", sans-serif;
+  font-weight: 600;
+  font-size: 1rem;
+  width: 60%;
+  margin-bottom: 1rem;
+}
+
+.skills-plate:hover {
+  background-color: #90acd1;
+  color: white;
+  .icons {
+    transition: all 0.2s ease-in-out;
+  }
+  .skill-name {
+    transition: all 0.3s ease-in-out;
+  }
+}
+
+.resume-container:hover {
+  background-color: #90acd1;
+  .year,
+  .course {
+    color: #f9f9ff;
+    transition: all 0.2s ease-in;
+  }
+  .desc,
+  .college {
+    color: #f9f9ff;
+    transition: all 0.3s ease-in;
+  }
+}
+
+.skills-card {
+  display: grid;
+  grid-template-columns: 20% 20% 20% 20% 20%;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 2rem;
+}
+
+::selection {
+  background-color: #e45447;
+  color: #fff;
+}
+
+@media screen and (max-width: 960px) {
+  .Resume {
+    margin: 0 0;
+  }
+  .entire-resume {
+    height: auto;
+  }
+  #education,
+  #internship,
+  #achievement {
+    padding: 0% 6% 0% 6%;
+  }
+
+  #skills {
+    padding: 0% 12% 0% 7%;
+  }
+  .skills-card {
+    grid-template-columns: 20% 20% 20%;
+    justify-content: space-between;
+  }
+  .skills-plate {
+    padding: 1.5rem;
+    border-radius: 20px;
+    width: 110px;
+    display: inline-flex;
+  }
+  .resume-divider {
+    margin: 0% 25%;
+  }
+  #education {
+    padding-top: 2rem;
+  }
+
+  #achievement {
+    background-color: #e1f5fe;
+  }
+}
