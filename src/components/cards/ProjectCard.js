@@ -61,7 +61,7 @@ function Maz() {
         image="images/anime.jpg"
         title="Anime Recommendation"
         body="This is a simple anime recommendation app made with React JS. Some of my favourite shows and favourite genres lined up. Hope you all will enjoy these shows. The shows are self-rated."
-        demourl="https://samflab.github.io/food-emoji-interpreter/"
+        demourl="https://samflab.github.io/https://wldp9.csb.app/"
         codeurl="https://github.com/samflab/food-emoji-interpreter/tree/master"
       />
       <ProjectCard
