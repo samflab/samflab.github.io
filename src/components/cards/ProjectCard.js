@@ -60,7 +60,7 @@ function Maz() {
       <ProjectCard
         image="images/anime.jpg"
         title="Anime Recommendation"
-        body="This is a simple anime recommendation app made with React JS. Some of my favourite shows and favourite genres lined up. Hope you all will enjoy these shows. The shows are self-rated."
+        body="This one is a simple anime recommendation app made with React JS. Some of my favourite shows and favourite genres lined up. Hope you all will enjoy these shows. The shows are self-rated."
         demourl="https://wldp9.csb.app/"
         codeurl="https://github.com/samflab/food-emoji-interpreter/tree/master"
       />
