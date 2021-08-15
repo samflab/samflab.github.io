@@ -37,7 +37,7 @@ class Home extends Component {
             <div className="image image-fluid">
               
               <img
-                src="images/witch.svg"
+                src="images/witch.webp"
                 alt="Masudha"
                 className="responsive"
               />
