@@ -36,40 +36,11 @@ class Footer extends Component {
           <a href="https://samflab.medium.com" className="social-logo">
             <FaMediumM className="social-logo" />
           </a>
-          <a
-            href="https://www.hackerrank.com/kasturimeh"
-            className="social-logo"
-          >
-            <FaHackerrank className="social-logo" />
-          </a>
           <a href="https://www.twitter.com/kasturimeh" className="social-logo">
             <FaTwitter className="social-logo" />
           </a>
         </div>
         <br />
-        {/* <MDBContainer
-          style={{
-            display: "flex",
-            flexDirection: "row",
-            justifyContent: "space-evenly"
-          }}
-        >
-          <a
-            href="https://www.linkedin.com/in/masudhameher/"
-            className="social-logo"
-          >
-            <MDBIcon fab icon="linkedin-in" />
-          </a>
-          <a href="https://github.com/samflab" className="social-logo">
-            <MDBIcon fab icon="github" />
-          </a>
-          <a href="https://samflab.medium.com" className="social-logo">
-            <MDBIcon fab icon="medium-m" />
-          </a>
-          <a href="#!" className="social-logo">
-            <MDBIcon fab icon="hackerrank" />
-          </a>
-        </MDBContainer> */}
         <span>
           Made with ♡ by{" "}
           <a className="my-name" href="https://github.com/samflab/Portfolio">
