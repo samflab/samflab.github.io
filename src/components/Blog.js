@@ -13,6 +13,26 @@ function Blog() {
       <hr className="blog-divider" />
       <div>
         <div className="blog-plate">
+        <div className="blog-layout">
+            <span className="blog-body">
+              <h4 className="blog-title">Send Emails using ReactJS from EmailJS</h4>
+              <p className="blog-desc">
+              Yes, you read it right ! Finally a functionality that 
+              lets you send email from your ReactJS based frontend 
+              to your mail...
+              </p>
+              <button
+                className="urls"
+                onClick={() => {
+                  blogLinkClick(
+                    "https://samflab.medium.com/send-emails-using-reactjs-from-emailjs-c0a64a57e36b"
+                  );
+                }}
+              >
+                Read More
+              </button>
+            </span>
+          </div>
           <div className="blog-layout">
             <span className="blog-body">
               <h4 className="blog-title">
