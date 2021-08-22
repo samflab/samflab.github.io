@@ -1,4 +1,3 @@
-import { Button } from "react-bootstrap";
 import "../styles/Blog.scss";
 
 function blogLinkClick(link) {

@@ -2,7 +2,6 @@ import React, { Component } from "react";
 import {
   FaLinkedinIn,
   FaMediumM,
-  FaHackerrank,
   FaTwitter,
 } from "react-icons/fa";
 import { AiFillGithub, AiOutlineArrowUp } from "react-icons/ai";
