@@ -34,8 +34,8 @@ function Maz() {
         title="Portfolio"
         tag="Mark 4, Mark 5"
         body="My portfolio which contains basic information about me, along with my projects and blogs written by me !"
-        demourl="https://randomoremipsum.netlify.app/"
-        codeurl="https://github.com/samflab/random-lorem-ipsum"
+        demourl="https://samflab.github.io/"
+        codeurl="https://github.com/samflab/samflab.github.io"
       />
 
       <ProjectCard
