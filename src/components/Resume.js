@@ -138,7 +138,6 @@ class Resume extends Component {
   }
   render() {
     const { windowWidth } = this.state;
-    console.log(windowWidth);
     return (
       <div className="entire-resume">
         {windowWidth >= 960 ? (
