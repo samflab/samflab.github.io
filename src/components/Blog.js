@@ -34,9 +34,9 @@ function Blog() {
           </div>
           <div className="blog-layout">
             <span className="blog-body">
-              <h4 className="blog-title">
-                Smallest Positive Missing Number in an Unsorted Array in C++
-              </h4>
+              <p className="blog-title">
+                Smallest Positive Missing Number in an Unsorted Array
+              </p>
               <p className="blog-desc">
                 We have an array consisting of negative and positive numbers, we
                 have to finding the smallest missing positive number from the

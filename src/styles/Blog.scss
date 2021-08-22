@@ -21,15 +21,13 @@
 .blog-plate {
   display: flex;
   flex-direction: row;
+  justify-content: space-evenly;
   flex-wrap: wrap;
-  justify-content: center;
 }
 .blog-layout {
   display: flex;
   flex-direction: column;
   width: 25rem;
-  margin-left: 2.5%;
-  margin-right: 2.5%;
   padding: 2% 2% 2% 2%;
   margin-top: 5%;
   background-color: #f9f9ff;
@@ -52,7 +50,7 @@
     display: flex;
     flex-direction: column;
     width: 30rem;
-    padding: 3% 3% 3% 3%;
+    padding: 5% 5% 5% 5%;
     margin-left: 4.5%;
     margin-right: 4.5%;
     margin-bottom: 4.5%;
@@ -76,7 +74,10 @@
 }
 .blog-body {
   align-self: center;
-  margin: 2%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: baseline;
 }
 
 .blog-title {
