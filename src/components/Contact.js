@@ -1,4 +1,3 @@
-import { Col, Container, Row } from "react-bootstrap";
 import emailjs from "emailjs-com";
 import "../styles/Contact.scss";
 
