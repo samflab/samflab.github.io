@@ -77,7 +77,7 @@ function Maz() {
         title="Anime Recommendation"
         tag="Mark 9"
         body="This one is a simple anime recommendation app made with React JS. Some of my favourite shows and favourite genres lined up. Hope you all will enjoy these shows. The shows are self-rated."
-        demourl="https://wldp9.csb.app/"
+        demourl="https://samflab.github.io/anime-recommendation/"
         codeurl="https://github.com/samflab/food-emoji-interpreter/tree/master"
       />
       <ProjectCard
