@@ -3,12 +3,11 @@ import "../../styles/Project.scss";
 function Maz() {
   return (
     <div className="project-card-details">
-      
       <ProjectCard
-        image="images/cli.PNG"
-        title="CLI: Todo App"
+        image="images/about-me-cli.PNG"
+        title="CLI: DoYouKnowMe Quiz"
         tag="Mark 1"
-        body="A todo app with a command line interface to you give a cool programmer or a hacker look. You can add in your stuffs and remove it. No complicated interface."
+        body="A quiz with a command line interface that quizzes you about me. Don't forget to click on the play button at bottom right."
         demourl="https://replit.com/@samflab/ToDo-app?embed=1&output=1#index.js"
         codeurl="https://github.com/samflab/CLI-Todo-app"
       />
@@ -29,11 +28,11 @@ function Maz() {
         demourl="https://randomoremipsum.netlify.app/"
         codeurl="https://github.com/samflab/random-lorem-ipsum"
       />
- <ProjectCard
+      <ProjectCard
         image="images/portfolio.png"
         title="Portfolio"
         tag="Mark 4, Mark 5"
-        body="My portfolio which contains basic information about me, along with my projects and blogs written by me !"
+        body="My portfolio which contains basic information about me, along with my achievements, projects and blogs written by me !"
         demourl="https://samflab.github.io/"
         codeurl="https://github.com/samflab/samflab.github.io"
       />
@@ -126,6 +125,14 @@ function Maz() {
       />
 
       <ProjectCard
+        image="images/cli.PNG"
+        title="CLI: Todo App"
+        body="A todo app with a command line interface to you give a cool programmer or a hacker look. You can add in your stuffs and remove it. No complicated interface."
+        demourl="https://replit.com/@samflab/ToDo-app?embed=1&output=1#index.js"
+        codeurl="https://github.com/samflab/CLI-Todo-app"
+      />
+
+      <ProjectCard
         image="images/weather.jpg"
         title="Weather App"
         body="A simple Weather App where you enter the city and it will tell how's the weather along with maximum and minimum temperature and humidity. Built with Vanilla JS and weather API."
@@ -147,7 +154,6 @@ function Maz() {
         demourl="https://drive.google.com/file/d/1tLN9jPti7u0u_-q9T4L70Hpz9q_gwXeS/view?usp=sharing"
         codeurl="https://github.com/samflab/Fitility-OpenSource"
       />
-
     </div>
   );
 }
@@ -166,7 +172,10 @@ function ProjectCard(props) {
           justifyContent: "space-around",
         }}
       >
-        <div style={{ width: "25rem", height:"40rem" }} className="project-card">
+        <div
+          style={{ width: "25rem", height: "40rem" }}
+          className="project-card"
+        >
           <img
             variant="top"
             src={props.image}
@@ -178,7 +187,7 @@ function ProjectCard(props) {
           <div className="card-content">
             <h3 className="project-title">{props.title}</h3>
             <p className="project-tag">{props.tag}</p>
-            <br/>
+            <br />
             <p className="project-body">{props.body}</p>
             <p style={{ textAlign: "center", left: "0", marginTop: "10px" }}>
               <button
