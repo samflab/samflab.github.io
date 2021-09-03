@@ -4,7 +4,7 @@ function Maz() {
   return (
     <div className="project-card-details">
       <ProjectCard
-        image="images/about-me-cli.PNG"
+        image="images/about-me-cli.png"
         title="CLI: DoYouKnowMe Quiz"
         tag="Mark 1"
         body="A quiz with a command line interface that quizzes you about me. Don't forget to click on the play button at bottom right."
