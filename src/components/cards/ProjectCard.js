@@ -8,8 +8,8 @@ function Maz() {
         title="CLI: DoYouKnowMe Quiz"
         tag="Mark 1"
         body="A quiz with a command line interface that quizzes you about me. Don't forget to click on the play button at bottom right."
-        demourl="https://replit.com/@samflab/ToDo-app?embed=1&output=1#index.js"
-        codeurl="https://github.com/samflab/CLI-Todo-app"
+        demourl="https://replit.com/@samflab/DoYouKnowMe?embed=1&output=1#index.js"
+        codeurl="https://github.com/samflab/DoYouKnowMe-quiz"
       />
 
       <ProjectCard
