@@ -17,6 +17,41 @@ function Blog() {
           <div className="blog-layout">
             <span className="blog-body">
               <h4 className="blog-title">
+                Hoisting in JavaScript
+              </h4>
+              <p className="blog-desc">
+              One of the hot topics around JavaScript is hoisting.
+              We'll understand what is hoisting. Let's dive deep into this. Hoisting in Javascript is a mechanism...
+              </p>
+              <div>
+                <button className="read-more">Read More Here: </button>
+                &nbsp; &nbsp;
+                <button
+                  className="urls"
+                  onClick={() => {
+                    blogLinkClick(
+                      "https://samflab.medium.com/hoisting-in-javascript-var-let-and-const-e3b70c536f55"
+                    );
+                  }}
+                >
+                  <FaMediumM />
+                </button>
+                &nbsp;
+                <button className="urls"
+                onClick={() => {
+                  blogLinkClick(
+                    "https://hashnode.com/post/hoisting-in-javascript-ckycnb7sv01jbo7s13a2n9eky"
+                  );
+                }}
+                >
+                  <SiHashnode />
+                </button>
+              </div>
+            </span>
+          </div>
+          <div className="blog-layout">
+            <span className="blog-body">
+              <h4 className="blog-title">
                 Send Emails using ReactJS from EmailJS
               </h4>
               <p className="blog-desc">
