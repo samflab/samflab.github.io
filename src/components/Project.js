@@ -10,9 +10,7 @@ class ProjectWork extends Component {
           Projects
         </h1>
         <hr className="project-divider" />
-        <div>
-          <Maz />
-        </div>
+        <Maz />
       </div>
     );
   }
