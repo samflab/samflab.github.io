@@ -1,16 +1,13 @@
 import React, { Component } from "react";
-import Maz from "./cards/ProjectCard";
-
+import ProjectCard from "./cards/ProjectCard";
 class ProjectWork extends Component {
   render() {
     return (
       <div className="Project" id="projects">
-        {" "}
-        <h1 className="project-header" style={{ textAlign: "center" }}>
+        <h1 className="project-header">
           Projects
         </h1>
-        <hr className="project-divider" />
-        <Maz />
+        <ProjectCard />
       </div>
     );
   }
