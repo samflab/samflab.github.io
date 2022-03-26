@@ -16,7 +16,9 @@ import Skills from "./components/Skills";
 function App() {
   return (
     <Routex>
+      
       <div className="App">
+      
         <Navbar />
         <Home />
         <About />

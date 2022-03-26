@@ -114,6 +114,7 @@ function Maz() {
                 className="urls"
                 onClick={() => {
                   urlClick(project.codeurl);
+                  
                 }}
               >
                 Code

@@ -82,7 +82,28 @@ input {
   margin-inline-end: 0px;
 }
 
+.message-div{
+  background-color: #90acd1;
+  font-family: "Roboto", sans-serif;
+  margin-top: 1rem;
+    padding: 1rem;
+    border-radius: 10px;
+    color: white;
+    width: 20rem;
+    text-align: center;
 
+}
+
+.close-btn{
+  outline: none;
+  border: none;
+  border-radius: 50px;
+  color: white;
+  background-color: #222222;
+  padding: 0.5rem 0.8rem;
+  margin-left: 0.5rem;
+  cursor: pointer;
+}
 
 #name,
 #email,
@@ -155,7 +176,6 @@ textarea {
   background-size: 200% 100%;
   background-position: right bottom;
   transition: all 0.5s ease-out;
-  width: 30%;
 }
 
 .contact-button:hover {
