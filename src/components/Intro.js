@@ -1,25 +1,25 @@
 import TypeIt from "typeit-react";
 
-function Intro() {
+const IntroScroll = () => {
   return (
     <TypeIt
-      // speed="10"
-      // autoStart = "true"
-      
+      speed="10"
       getBeforeInit={(instance) => {
         instance
           .type("I'm a Frontend Developer.")
           .pause(750)
           .delete(19)
           .pause(500)
-          .type("Flutter Developer.");
-
-        // Remember to return it!
+          .type("Flutter Developer.")
+          .pause(750)
+          .delete(18)
+          .pause(500)
+          .type("ReactJS Developer.");
         return instance;
       }}
       options={{ loop: true }}
     />
   );
-}
+};
 
-export default Intro;
+export default IntroScroll;

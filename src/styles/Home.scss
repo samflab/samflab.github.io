@@ -153,12 +153,18 @@ h2 {
   background-size: 200% 100%;
   background-position: right bottom;
   transition: all 0.5s ease-out;
+  text-decoration: none;
+  
 }
 
 .download-resume:hover {
-  color: var(--main-font);
+ color:#fff;
   background-color: #90acd1;
   background-position: left bottom;
+}
+
+img[alt="circle-animation"]{
+  opacity: 0.5;
 }
 
 @keyframes jumping {
