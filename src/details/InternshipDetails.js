@@ -1,5 +1,10 @@
 export const InternshipDetails = [
-  
+  {
+    duration: "September 2021 - present",
+    job: "Frontend Developer Intern",
+    company:"KAOS Agency",
+    desc:"I worked on converting PSD files to React JS code. I worked on a project that involved creating a simple UI and fetching the data through Rest APIs. I also worked on building a design system. The component library involved making a variety of components and documenting them. Currently I am wroking on a Billing System that involves Node JS."
+  },
   {
     duration: "June 2021 – August 2021",
     job: "Full Stack Developer Intern",

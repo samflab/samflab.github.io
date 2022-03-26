@@ -8,7 +8,10 @@ import {
   SiDart,
   SiFirebase,
   SiCplusplus,
+  SiStorybook,
   SiVisualstudiocode,
+  SiTailwindcss,
+  SiNodedotjs,
   SiPhp,
   SiMysql,
 } from "react-icons/si";
@@ -31,11 +34,11 @@ const SkillsIcons = () => {
   };
   return (
     <div className="skills-card">
-      <SkillCard src={<SiCplusplus style={styles} />} name="C++" />
       <SkillCard src={<SiHtml5 style={styles} />} name="HTML" />
       <SkillCard src={<SiJavascript style={styles} />} name="Javascript" />
       <SkillCard src={<IoLogoCss3 style={styles} />} name="CSS" />
       <SkillCard src={<IoLogoSass style={styles} />} name="Sass" />
+      <SkillCard src={<SiTailwindcss style={styles}/>} name="Tailwind"/>
       <SkillCard src={<SiBootstrap style={styles} />} name="Boostrap" />
       <SkillCard src={<SiReact style={styles} />} name="React JS" />
       <SkillCard src={<SiFlutter style={styles} />} name="Flutter" />
@@ -43,8 +46,10 @@ const SkillsIcons = () => {
       <SkillCard src={<SiFirebase style={styles} />} name="Firebase" />
       <SkillCard src={<SiPhp style={styles} />} name="PHP" />
       <SkillCard src={<SiMysql style={styles} />} name="MySql" />
+      <SkillCard src={<SiNodedotjs style={styles}/>} name="Node JS"/>
       <SkillCard src={<DiGit style={styles} />} name="Git" />
       <SkillCard src={<SiVisualstudiocode style={styles} />} name="VS Code" />
+      <SkillCard src={<SiStorybook style={styles}/>} name="Storybook"/>
     </div>
   );
 };
