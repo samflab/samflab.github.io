@@ -143,7 +143,6 @@ class Resume extends Component {
         {windowWidth >= 960 ? (
           <div className="Resume" id="resume">
             <h1 className="resume-header">Resume</h1>
-            <hr className="resume-divider" />
             <div>
               <VerticalTabs />
             </div>

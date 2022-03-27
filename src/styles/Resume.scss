@@ -21,18 +21,15 @@ body {
 }
 .resume-header {
   color: var(--main-font);
-  font-weight: bolder;
-  position: relative;
-  text-align: left;
+  font-weight: 700;
   font-size: 2.8rem;
   font-family: "Poppins", sans-serif;
   text-align: center;
   padding-top: 2rem;
-}
-
-.resume-divider {
-  margin: 0% 42%;
-  border-top: 5px solid #e45447;
+  border-bottom: 5px solid #e45447;
+  width: 15rem;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .tabs {
@@ -41,8 +38,7 @@ body {
 #education,
 #internship,
 #achievement {
-  padding: 0% 15% 0% 5%;
-  float: left;
+  padding: 0 5rem;
   width: 100%;
   overflow-y: auto;
   height: 50vh;
@@ -58,14 +54,14 @@ body {
 }
 
 #skills {
-  padding: 0% 0% 0% 5%;
+  padding-left: 2rem;
   height: auto;
 }
 .resume-container {
   width: 100%;
-  margin-bottom: 30px;
+  margin-bottom: 2rem;
   background-color: #f9f9ff;
-  padding: 30px 40px;
+  padding: 2rem 2.5rem;
   border-radius: 10px;
   box-shadow: 0px 0px 10px 2px #90acd1;
 }
@@ -78,7 +74,7 @@ body {
 }
 
 .course {
-  font-size: 20px;
+  font-size: 1.2rem;
   font-weight: 700;
   color: #222222;
   font-family: "Poppins", sans-serif;
@@ -86,10 +82,10 @@ body {
 
 .college {
   display: inline-block;
-  margin-bottom: 10px;
+  margin-bottom: 1rem;
   color: #777777;
   font-family: "Roboto", sans-serif;
-  font-size: 15px;
+  font-size: 0.9rem;
   font-weight: 400;
   line-height: 1.625em;
 }
@@ -97,29 +93,40 @@ body {
 .desc {
   font-family: "Roboto", sans-serif;
   color: #777777;
-  font-size: 15px;
+  font-size: 0.98rem;
   font-weight: 400;
   line-height: 1.625em;
 }
 
 .skills-plate {
   display: flex;
-  flex-direction: row;
   background-color: #f9f9ff;
   padding: 1rem;
-  border-radius: 99px;
+  border-radius: 10px;
   justify-content: space-evenly;
   align-items: center;
   font-family: "Roboto", sans-serif;
   font-weight: 600;
-  font-size: 1rem;
-  width: 60%;
+  font-size: 1.1rem;
+  width: 10rem;
   margin-bottom: 1rem;
+}
+
+.skill-card-container{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+}
+
+.icons{
+  margin-right: 0.5rem;
 }
 
 .skills-plate:hover {
   background-color: #90acd1;
-  color: white;
+  color: #fff;
   .icons {
     transition: all 0.2s ease-in-out;
   }
@@ -140,14 +147,6 @@ body {
     color: #f9f9ff;
     transition: all 0.3s ease-in;
   }
-}
-
-.skills-card {
-  display: grid;
-  grid-template-columns: 20% 20% 20% 20% 20%;
-  justify-content: center;
-  align-items: center;
-  margin-bottom: 2rem;
 }
 
 ::selection {
@@ -171,13 +170,14 @@ body {
   #skills {
     padding: 0% 12% 0% 7%;
   }
+
   .skills-card {
-    grid-template-columns: 20% 20% 20%;
     justify-content: space-between;
   }
+
   .skills-plate {
     padding: 1.5rem;
-    border-radius: 20px;
+    border-radius: 10px;
     width: 110px;
     display: inline-flex;
   }

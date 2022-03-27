@@ -1,8 +1,9 @@
-import React, { Component } from "react";
-import SkillsIcons from "./cards/SkillIcons";
+import React from "react";
+import { skillData } from "../details/skillDetails";
 
-class Skills extends Component {
-  render() {
+
+const Skills = () => {
+  
     return (
       <div id="skills">
         <h3
@@ -10,16 +11,23 @@ class Skills extends Component {
             fontWeight: "700",
             marginBottom: "30px",
             fontSize: "24px",
-            fontFamily: "Poppins"
+            fontFamily: "Poppins",
           }}
         >
           Skills
         </h3>
-
-        <SkillsIcons />
+        <div className="skill-card-container">
+        {skillData.map((skill) => {
+          return (
+            <div className="skills-plate">
+              <span className="icons">{skill.icon}</span>
+              <span className="skill-name">{skill.name}</span>
+            </div>
+          );
+        })}
+        </div>
       </div>
     );
   }
-}
 
 export default Skills;
