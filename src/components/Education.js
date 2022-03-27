@@ -1,27 +1,13 @@
-import React, { Component } from "react";
-import Cards from "./cards/EducationCard";
+import React from "react";
 import "../styles/Resume.scss";
+import EducationCard from "./cards/EducationCard";
 
-class Education extends Component {
-  render() {
-    return (
-      <div
-        className="edu"
-        id="education"
-      >
-        <h3
-          style={{
-            fontWeight: "700",
-            marginBottom: "30px",
-            fontSize: "24px",
-            fontFamily: "Poppins"
-          }}
-        >
-          Education
-        </h3>
-        <Cards />
-      </div>
-    );
-  }
-}
+const Education = () => {
+  return (
+    <div className="edu" id="education">
+      <h3 className="resume-sub-heading">Education</h3>
+      <EducationCard />
+    </div>
+  );
+};
 export default Education;
