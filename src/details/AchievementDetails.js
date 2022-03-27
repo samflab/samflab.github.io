@@ -1,4 +1,4 @@
-export const AchievementDetails = [
+export const achievementDetails = [
   {
     year: "February 2021 - March 2021",
     course: "Top 5 Teams at COVID-19 Gameathon",
