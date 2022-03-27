@@ -1,4 +1,4 @@
-export const Details = [
+export const aboutMeDetails = [
   {
     title: "Name: ",
     value: "Masudha Meher"
