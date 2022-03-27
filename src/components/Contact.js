@@ -2,11 +2,11 @@ import emailjs from "emailjs-com";
 import { useState } from "react";
 import "../styles/Contact.scss";
 
-export default function Contact() {
+const Contact = () => {
   const [message, setMessage] = useState(false);
   const [errorMessage, setErrorMessage] = useState(false);
 
-  function sendEmail(e) {
+  const sendEmail = (e) => {
     e.preventDefault();
 
     emailjs
@@ -18,14 +18,12 @@ export default function Contact() {
       )
       .then(
         (result) => {
-          console.log(result.text);
           setMessage(true);
-          setTimeout(()=>setMessage(false),5000);
+          setTimeout(() => setMessage(false), 5000);
         },
         (error) => {
-          console.log(error.text);
           setErrorMessage(true);
-          setTimeout(()=>setErrorMessage(false), 5000);
+          setTimeout(() => setErrorMessage(false), 5000);
         }
       );
     e.target.reset();
@@ -34,7 +32,6 @@ export default function Contact() {
     <div className="ContactMe" id="contact">
       <h1 className="contact-header">Contact Me</h1>
 
-      <hr className="contact-divider" />
       <div className="contact-content">
         <div className="form-group-total">
           <form onSubmit={(e) => sendEmail(e)}>
@@ -72,10 +69,9 @@ export default function Contact() {
             />
             <br />
             <textarea
-              className="form-control"
+              className="form-control textarea"
               name="message"
               id="message"
-              style={{ height: 100 }}
               placeholder="Write your message"
               required="required"
             ></textarea>
@@ -84,7 +80,7 @@ export default function Contact() {
               Send Message Now
             </button>
             {message ? <Message msg="Your message has been sent." /> : <></>}
-            {errorMessage ? <Message msg="Couldn't send a message"/> : <></>}
+            {errorMessage ? <Message msg="Couldn't send a message" /> : <></>}
           </form>
         </div>
       </div>
@@ -99,3 +95,5 @@ export const Message = (props) => {
     </div>
   );
 };
+
+export default Contact

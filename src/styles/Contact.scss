@@ -4,7 +4,7 @@
 }
 .contact-divider {
   margin: 0% 42%;
-  border-top: 5px solid #e45447;
+  
 }
 .contact-header {
   color: var(--main-font);
@@ -14,6 +14,10 @@
   font-size: 2.8rem;
   font-family: "Poppins", sans-serif;
   text-align: center;
+  border-bottom: 5px solid #e45447;
+  width: 20rem;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .contact-content {
@@ -92,6 +96,10 @@ input {
     width: 20rem;
     text-align: center;
 
+}
+
+.textarea{
+  height: 200px;
 }
 
 .close-btn{
